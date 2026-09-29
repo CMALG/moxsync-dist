@@ -4,7 +4,7 @@ Distribution des MoxSync-Browser-Add-ons (Tracking der Kartenverfügbarkeit übe
 mehrere geteilte Moxfield-Collections). Dieses Repository enthält die
 installierbaren Builds. Der Quellcode wird separat gepflegt.
 
-**Aktuelle Version: 1.0.9**
+**Aktuelle Version: 1.0.10**
 
 ---
 
@@ -16,7 +16,7 @@ Add-on künftig selbst.
 
 ### Installation
 1. Firefox öffnen und diese Datei aufrufen:
-   [`moxsync-firefox-1.0.9.xpi`](https://raw.githubusercontent.com/CMALG/moxsync-dist/main/moxsync-firefox-1.0.9.xpi)
+   [`moxsync-firefox-latest.xpi`](https://raw.githubusercontent.com/CMALG/moxsync-dist/main/moxsync-firefox-latest.xpi) (Version 1.0.10)
 2. Firefox fragt, ob das Add-on installiert werden soll — bestätigen.
 3. Fertig. Add-on-ID: `moxsync@extension`
 
@@ -33,8 +33,8 @@ der regulären Firefox-Release-Version.
 > werden. Ein `updates.json`-Mechanismus wie bei Firefox greift hier nicht.
 
 ### Installation (Entwicklermodus)
-1. [`moxsync-chrome-1.0.9.zip`](https://raw.githubusercontent.com/CMALG/moxsync-dist/main/moxsync-chrome-1.0.9.zip) herunterladen und in einen
-   Ordner entpacken.
+1. [`moxsync-chrome-latest.zip`](https://raw.githubusercontent.com/CMALG/moxsync-dist/main/moxsync-chrome-latest.zip) (Version 1.0.10) herunterladen
+   und in einen Ordner entpacken.
 2. Im Browser `chrome://extensions` (bzw. `edge://extensions`,
    `brave://extensions`) öffnen.
 3. Oben rechts den **Entwicklermodus** aktivieren.
@@ -52,8 +52,12 @@ der regulären Firefox-Release-Version.
 
 | Datei | Zweck |
 | --- | --- |
-| `moxsync-firefox-1.0.9.xpi` | Signiertes Firefox-Add-on (mit Auto-Update) |
-| `moxsync-chrome-1.0.9.zip` | Chrome/Chromium-Build (manuelle Installation) |
+| `moxsync-firefox-latest.xpi` | Aktuelles Firefox-Add-on (signiert, mit Auto-Update) |
+| `moxsync-chrome-latest.zip` | Aktueller Chrome/Chromium-Build (manuelle Installation) |
 | `updates.json` | Firefox-Update-Manifest (von Firefox automatisch abgerufen) |
+| `archive/` | Frühere Versionen (versioniert) zum Nachschlagen oder Rollback |
+
+Die `latest`-Dateien enthalten immer die aktuelle Version (1.0.10). Ältere
+Versionen liegen versioniert im Ordner `archive/`.
 
 _Dieses README wird beim Release automatisch erzeugt._
