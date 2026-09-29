@@ -3,8 +3,8 @@
     "moxsync@extension": {
       "updates": [
         {
-          "version": "1.0.8",
-          "update_link": "https://raw.githubusercontent.com/CMALG/moxsync-dist/main/moxsync-firefox-1.0.8.xpi",
+          "version": "1.0.9",
+          "update_link": "https://raw.githubusercontent.com/CMALG/moxsync-dist/main/moxsync-firefox-1.0.9.xpi",
           "applications": {
             "gecko": {
               "strict_min_version": "112.0"
